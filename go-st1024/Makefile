@@ -1,0 +1,4 @@
+all:
+	time go run .
+
+ 
