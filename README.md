@@ -12,20 +12,20 @@ time go run .
 # 6.817s, 153_815 insert/s
 
 # go-byte1024
-# 3.488s, 300_617 insert/s
+# 3.176s, 330_136 insert/s
 
 time cargo run --release
 # rust--byte1024-array-fill
 # 3s, 349_525 insert/s
 
 # rust--byte1024 
-# 12s, 87_381 insert/s
+# 10s, 104_857.6 insert/s
 
 # rust-String
-# 9s, 116_508 insert/s
+# 14s, 74_898 insert/s
 
 # rust-byte1024-Uniform
-# 10s, 104_858 insert/s
+# 14s, 74_898 insert/s
 ```
 
 [How fast is Redis?](https://redis.io/topics/benchmarks)
