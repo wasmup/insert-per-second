@@ -27,3 +27,13 @@ time cargo run --release
 # rust-byte1024-Uniform
 # 10s, 104_858 insert/s
 ```
+
+[How fast is Redis?](https://redis.io/topics/benchmarks)
+```sh
+sudo apt install redis-tools
+redis-server
+
+redis-benchmark -t set,lpush -n 100000 -q
+# SET: 72_992.70 requests per second
+# LPUSH: 74_794.31 requests per second
+```
